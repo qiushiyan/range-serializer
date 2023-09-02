@@ -1,0 +1,27 @@
+{
+  "name": "range-serializer",
+  "version": "0.0.1",
+  "description": "Serialize and deserialize Range objects",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Qiushi Yan",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiushiyan/range-serializer.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "range",
+    "serialize",
+    "deserialize",
+    "DOM"
+  ]
+}
