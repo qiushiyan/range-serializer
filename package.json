@@ -1,6 +1,6 @@
 {
   "name": "range-serializer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Serialize and deserialize Range objects",
   "main": "./dist/index.js",
   "scripts": {

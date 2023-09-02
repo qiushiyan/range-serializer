@@ -55,11 +55,13 @@ export const getDocument = (node: Node): Document => {
 
 const getNodeIndex = (node: Node) => {
 	let i = 0;
-	let n = node;
-	while (n.previousSibling !== null) {
-		n = node.previousSibling as Node;
-		++i;
+	let currentNode = node;
+
+	while (currentNode.previousSibling !== null) {
+		currentNode = currentNode.previousSibling;
+		i++;
 	}
+
 	return i;
 };
 
